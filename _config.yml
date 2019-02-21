@@ -104,7 +104,6 @@ analytics:
     tracking_id          : "UA-92066007-2"
     anonymize_ip         : # true, false (default)
 
-
 # Site Author
 author:
   name             : "Michael Jones"
@@ -268,5 +267,5 @@ defaults:
       author_profile: false
       read_time: true
       comments: false # true
-      share: false  #true
+      share: true
       related: false # true
