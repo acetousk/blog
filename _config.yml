@@ -12,17 +12,17 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ben Gubler's Blog"
+title                    : "72832's Blog"
 title_separator          : "-"
-name                     : "Ben Gubler"
-description              : "The most wonderful blog ever"
-url                      : "https://blog.bengubler.com"
+name                     : "72832"
+description              : "The most wonderful robo blog ever"
+url                      : "https://72832.github.io/blog"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "nebrelbug/myblog"
+repository               : "72832/blog"
 github: [metadata]
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -107,28 +107,28 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ben Gubler"
+  name             : "Michael Jones"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I built this blog"
+  bio              : "Robo Nerd"
   location         : "Somewhere"
-  email            : "nebrelbug@gmail.com"
+  email            : "acetousk@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:nebrelbug@gmail.com
+      url: mailto:acetousk@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://bengubler.com"
+      url: "https://dmichaeljones.com/blog"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/nebrelbug"
+      url: "https://github.com/acetousk"
 
 # Site Footer
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/nebrelbug/myblog"
+      url: "https://github.com/72832/blog"
 
 
 # Reading Files
