@@ -1,5 +1,5 @@
 ---
-title:  ""
+title:  "Git Quickstart Guide for Robotics(or anyone)"
 categories: 
   - Tutorial
   - Intro
