@@ -23,62 +23,6 @@ Python codes for robotics algorithm.
 
 
 
-# Table of Contents
-   * [What is this?](#what-is-this)
-   * [Requirements](#requirements)
-   * [Documentation](#documentation)
-   * [How to use](#how-to-use)
-   * [Localization](#localization)
-      * [Extended Kalman Filter localization](#extended-kalman-filter-localization)
-      * [Particle filter localization](#particle-filter-localization)
-      * [Histogram filter localization](#histogram-filter-localization)
-   * [Mapping](#mapping)
-      * [Gaussian grid map](#gaussian-grid-map)
-      * [Ray casting grid map](#ray-casting-grid-map)
-      * [k-means object clustering](#k-means-object-clustering)
-      * [Rectangle fitting](#rectangle-fitting)
-   * [SLAM](#slam)
-      * [Iterative Closest Point (ICP) Matching](#iterative-closest-point-icp-matching)
-      * [FastSLAM 1.0](#fastslam-10)
-      * [Graph based SLAM](#graph-based-slam)
-   * [Path Planning](#path-planning)
-      * [Dynamic Window Approach](#dynamic-window-approach)
-      * [Grid based search](#grid-based-search)
-         * [Dijkstra algorithm](#dijkstra-algorithm)
-         * [A* algorithm](#a-algorithm)
-         * [Potential Field algorithm](#potential-field-algorithm)
-      * [State Lattice Planning](#state-lattice-planning)
-         * [Biased polar sampling](#biased-polar-sampling)
-         * [Lane sampling](#lane-sampling)
-      * [Probabilistic Road-Map (PRM) planning](#probabilistic-road-map-prm-planning)
-      * [Rapidly-Exploring Random Trees (RRT)](#rapidly-exploring-random-trees-rrt)
-         * [RRT*](#rrt)
-         * [RRT* with reeds-sheep path](#rrt-with-reeds-sheep-path)
-         * [LQR-RRT*](#lqr-rrt)
-      * [Quintic polynomials planning](#quintic-polynomials-planning)
-      * [Reeds Shepp planning](#reeds-shepp-planning)
-      * [LQR based path planning](#lqr-based-path-planning)
-      * [Optimal Trajectory in a Frenet Frame](#optimal-trajectory-in-a-frenet-frame)
-   * [Path Tracking](#path-tracking)
-      * [move to a pose control](#move-to-a-pose-control)
-      * [Stanley control](#stanley-control)
-      * [Rear wheel feedback control](#rear-wheel-feedback-control)
-      * [Linear–quadratic regulator (LQR) speed and steering control](#linearquadratic-regulator-lqr-speed-and-steering-control)
-      * [Model predictive speed and steering control](#model-predictive-speed-and-steering-control)
-      * [Nonlinear Model predictive control with C-GMRES](#nonlinear-model-predictive-control-with-c-gmres)
-   * [Arm Navigation](#arm-navigation)
-      * [N joint arm to point control](#n-joint-arm-to-point-control)
-      * [Arm navigation with obstacle avoidance](#arm-navigation-with-obstacle-avoidance)
-   * [Aerial Navigation](#aerial-navigation)
-      * [drone 3d trajectory following](#drone-3d-trajectory-following)
-      * [rocket powered landing](#rocket-powered-landing)
-   * [Bipedal](#bipedal)
-      * [bipedal planner with inverted pendulum](#bipedal-planner-with-inverted-pendulum)
-   * [License](#license)
-   * [Use-case](#use-case)
-   * [Contribution](#contribution)
-   * [Support](#support)
-   * [Authors](#authors)
 
 # What is this?
 
@@ -95,7 +39,6 @@ Features:
 See this paper for more details:
 
 - [\[1808\.10703\] PythonRobotics: a Python code collection of robotics algorithms](https://arxiv.org/abs/1808.10703) ([BibTeX](https://github.com/AtsushiSakai/PythonRoboticsPaper/blob/master/python_robotics.bib))
-
 
 # Requirements
 
@@ -121,23 +64,6 @@ You can check the full documentation online: [https://pythonrobotics.readthedocs
 
 All animation gifs are stored here: [AtsushiSakai/PythonRoboticsGifs: Animation gifs of PythonRobotics](https://github.com/AtsushiSakai/PythonRoboticsGifs)
 
-# How to use
-
-1. Clone this repo.
-
-> git clone https://github.com/AtsushiSakai/PythonRobotics.git
-
-> cd PythonRobotics/
-
-
-2. Install the required libraries. You can use environment.yml with conda command.
-
-> conda env create -f environment.yml
-
-
-3. Execute python script in each directory.
-
-4. Add star to this repo if you like it :smiley:. 
 
 # Localization
 
@@ -573,20 +499,6 @@ See: [users\_comments](https://github.com/AtsushiSakai/PythonRobotics/blob/maste
 A small PR like bug fix is welcome.
 
 If your PR is merged multiple times, I will add your account to the author list.
-
-# Support
-
-If you or your company would like to support this project, please consider:
-
-- [Become a backer or sponsor on Patreon](https://www.patreon.com/myenigma)
-
-- [One-time donation via PayPal](https://www.paypal.me/myenigmapay/)
-
-You can add your name or your company logo in README if you are a patron.
-
-E-mail consultant is also available.
-
- 　
 
 Your comment using [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/AtsushiSakai) is also welcome. 
 
