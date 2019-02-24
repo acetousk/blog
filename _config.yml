@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "72832's Blog"
+title                    : "dMichaelJones's Blog"
 title_separator          : "-"
-name                     : "72832"
-description              : "The most wonderful robo blog ever"
-url                      : "https://72832.github.io/blog"
+name                     : "blog"
+description              : "The most wonderful personal blog ever"
+url                      : "https://dmichaeljones.com/blog"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "72832/blog"
+repository               : "acetousk/blog"
 github: [metadata]
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -127,8 +127,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/72832/blog"
-
+      url: "https://github.com/acetousk/blog"
 
 # Reading Files
 include:
