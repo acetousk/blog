@@ -143,7 +143,7 @@ These ball bots work because of the way the arena is made, and the fact that the
 
 ![Arena breakdown2](https://i.imgur.com/cJNcX6Y.jpg)
   
-Another thing that makes ball bots work is that it will always take more time and engineering to put a cap on a post than to take it off. People also put videos on [youtube]() that intentionally discourage the use of cap bots.
+Another thing that makes ball bots work is that it will always take more time and engineering to put a cap on a post than to take it off. People also put videos on that intentionally discourage the use of cap bots.
 
 ```
 
